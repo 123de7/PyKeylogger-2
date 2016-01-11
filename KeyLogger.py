@@ -12,7 +12,7 @@ def sendMail():
     password = "" #insert password here
     FROM = "" #insert from email address here
     TO = "" #insert to email address here
-    SUBJECT = "Jeff Log " + str(dateAndTime)
+    SUBJECT = "" + str(dateAndTime)
     TEXT = data
     server = smtplib.SMTP('smtp.gmail.com', 587) #this assumes a gmail login.
     server.starttls()
