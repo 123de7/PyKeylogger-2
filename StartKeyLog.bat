@@ -1,2 +1,2 @@
 cd <FILE PATH HERE>
-python PyKeylogger.py
+python Keylogger.py
